@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   i = random(0,255);
   analogWrite(LED, i);
-  delay(500);
+  delay(250);
 }
 
 
